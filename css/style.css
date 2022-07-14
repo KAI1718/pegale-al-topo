@@ -1,5 +1,5 @@
 .cont{ 
-    width: 900px; 
+    width: 900px;
     height: auto; 
     background: rgb(247, 134, 134); 
     overflow: hidden;}
@@ -11,9 +11,10 @@
 .cont .items .hueco{ 
     background: url(../imagenes/WhatsApp\ Image\ 2022-07-13\ at\ 7.19.12\ PM.jpeg) no-repeat;
      background-position: bottom center; 
-     width:  90%; height: 700px; 
+     width:  90%; height: 230px; 
      position: relative;
-      z-index: 10;  }
+      z-index: 10; 
+}
 .cont .items .topo { 
     position: absolute;
     left: 50px; 
