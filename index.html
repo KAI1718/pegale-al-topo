@@ -6,20 +6,20 @@
 </head>
 <body style="background-image: url('imagenes/fondo.png'); background-size:cover; background-repeat:no-repeat;"> <!--fondo-->>
 	<h1 align="CENTER" style="color: white; font-size: 45px;  padding: 10px;"> PEGALE AL TOPO </h1> <!--titulo-->
-
-	<div style="text-align: center; text-align: right; margin-top: 5%; margin-right: 15%;" >
-        <button id="baja" style="background-color: #fd8282; color: hwb(0 100% 0%); border-radius: 5px; padding: 20px; width: 100px;" >Velocidad Baja</button>
-    </div>
-
-    <div style="text-align: center; text-align: right; margin-top: 5%; margin-right: 15%;" >
-        <button id="media" style="background-color: #fd8282; color: hwb(0 100% 0%); border-radius: 5px; padding: 20px; width: 100px;" >Velocidad Media</button>
-    </div>
-
-    <div style="text-align: center; text-align: right; margin-top: 5%; margin-right: 15%;" >
-        <button id="alta" style="background-color: #fd8282; color: hwb(0 100% 0%); border-radius: 5px; padding: 20px; width: 100px;" >Velocidad Alta</button>
-    </div>
   
-	<p style="color: white; font-size: 200%;">Puntos <b id="puntos">0</b></p>
+	<div style="text-align: center; text-align: right; margin-top: 10%; margin-right: 15%;" >
+        <button id="baja" style="background-color: #fd8282; color: hwb(0 100% 0%); border-radius: 5px; padding: 20px; width: 100px;" onclick="velocidadBaja()">Velocidad Baja</button>
+    </div>
+
+    <div style="text-align: center; text-align: right; margin-top: 10%; margin-right: 15%;" >
+        <button id="media" style="background-color: #fd8282; color: hwb(0 100% 0%); border-radius: 5px; padding: 20px; width: 100px;" onclick="velocidadMedia()">Velocidad Media</button>
+    </div>
+
+    <div style="text-align: center; text-align: right; margin-top: 10%; margin-right: 15%;" >
+        <button id="alta" style="background-color: #fd8282; color: hwb(0 100% 0%); border-radius: 5px; padding: 20px; width: 100px;" onclick="velocidadAlta()" >Velocidad Alta</button>
+    </div>
+
+	<p style="color: white; font-size: 200%; text-align: center; margin-top: -40%;">Puntos <b id="puntos">0</b></p>
 	<div class="cont" >
 		<div class="items">			
 			<div class="topo"></div>
@@ -45,31 +45,10 @@
 			<div class="topo"></div>
 			<div class="hueco"></div>
 		</div>
-		<div class="items">			
-			<div class="topo"></div>
-			<div class="hueco"></div>
-		</div>
-		<div class="items">			
-			<div class="topo"></div>
-			<div class="hueco"></div>
-		</div>
-		<div class="items">			
-			<div class="topo"></div>
-			<div class="hueco"></div>
-		</div>
-		<div class="items">			
-			<div class="topo"></div>
-			<div class="hueco"></div>
-		</div>
-		<div class="items">			
-			<div class="topo"></div>
-			<div class="hueco"></div>
-		</div>
-		<div class="items">			
-			<div class="topo"></div>
-			<div class="hueco"></div>
-		</div>
 	</div>
+
+
+
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
