@@ -1,5 +1,26 @@
-.cont{ width: 900px; height: auto; background: rgb(247, 134, 134); overflow: hidden;}
-.cont .items{ float: left; width: 33.333%; position: relative; cursor: pointer; }
-.cont .items .hueco{ background: url(../imagenes/WhatsApp\ Image\ 2022-07-13\ at\ 7.19.12\ PM.jpeg) no-repeat; background-position: bottom center; width:  90%; height: 700px; position: relative; z-index: 10;  }
-.cont .items .topo { position: absolute; left: 50px; bottom: 20px; width: 180px; height: 60px;  background: url(../imagenes/topo2.jpeg) no-repeat; background-position: top center; transition: all .5s; }
+.cont{ 
+    width: 900px; 
+    height: auto; 
+    background: rgb(247, 134, 134); 
+    overflow: hidden;}
+.cont .items{ 
+    float: left; 
+    width: 33.333%; 
+    position: relative; 
+    cursor: pointer; }
+.cont .items .hueco{ 
+    background: url(../imagenes/WhatsApp\ Image\ 2022-07-13\ at\ 7.19.12\ PM.jpeg) no-repeat;
+     background-position: bottom center; 
+     width:  90%; height: 700px; 
+     position: relative;
+      z-index: 10;  }
+.cont .items .topo { 
+    position: absolute;
+    left: 50px; 
+    bottom: 20px; 
+    width: 180px; 
+    height: 60px;  
+    background: url(../imagenes/topo2.jpeg) no-repeat;
+     background-position: top center;
+      transition: all .5s; }
 .cont .items.active .topo{ height: 230px; }
